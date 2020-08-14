@@ -10,6 +10,12 @@ const useStyles = makeStyles((theme) => ({
         textAlign:"center",
 
     },
+    styles:{
+        fontSize: "23px",
+        fontWeight: "500",
+        fontFamily: "Quicksand",
+
+    },
 
     textcolor:{
         color: "white",
@@ -34,10 +40,10 @@ const useStyles = makeStyles((theme) => ({
   
               </Grid>
               <Grid container justify="center">
-                  <Grid item xs={3} style={{textAlign:"center"}}>
+                  <Grid item xs={12} sm={3} style={{textAlign:"center"}}>
                       <Typography>
-                         <h2> Cracking an interview is tough.</h2>
-                         <h4>We at Cache Prep help you crack it with clarity,convenience and confidence.</h4>
+                         <p className={classes.styles}> Cracking an interview is tough.
+                         We at Cache Prep help you crack it with clarity,convenience and confidence.</p>
                       </Typography>
                   </Grid>
               </Grid>
