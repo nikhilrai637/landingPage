@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { CardMedia } from '@material-ui/core';
 import Link from '@material-ui/core/Link';
-
+import img   from './dummy.jpg'
 
 const useStyles = makeStyles({
   root: {
@@ -39,7 +39,7 @@ const Component5 =() =>{
    <Link href="#">
     <Card className={classes.root}>
     <CardContent>
-      <CardMedia className={classes.media} style={{height: "50px"}} image="https://specials-images.forbesimg.com/imageserve/5e33ab078b6cf300071d7cd7/960x0.jpg?fit=scale" />
+      <CardMedia className={classes.media} style={{height: "50px"}} image={img} />
         
       
     </CardContent>
