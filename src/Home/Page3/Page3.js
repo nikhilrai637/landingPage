@@ -3,6 +3,10 @@ import Component1 from './Component1/Component1'
 import Component2 from './Component2/Component2'
 import Component3 from './Component3/Component3'
 import {Grid} from "@material-ui/core";
+import Typography from '@material-ui/core/Typography';
+
+
+
 
 
 function Page3() {
@@ -21,7 +25,7 @@ function Page3() {
       <Grid item sm={2} xs={2}/>
       <Grid item container xs={8} sm={8} spacing={6}>
           <Grid container>
-              <Grid item sm={5}>Y
+              <Grid item sm={5}>
                   <Component1 />
                   
               </Grid>
@@ -64,7 +68,7 @@ function Page3() {
       <Grid item sm={2} xs={2}/>
       <Grid item container xs={8} sm={8} spacing={6}>
           <Grid container>
-              <Grid item sm={5}>Y
+              <Grid item sm={5}>
                   <Component3 />
                   
               </Grid>
@@ -87,7 +91,7 @@ function Page3() {
 
           
            
-            <Component3/>
+        
             
         </div>
     )
