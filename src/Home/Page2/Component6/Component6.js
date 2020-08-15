@@ -43,9 +43,7 @@ const Component6 =() =>{
         
       
     </CardContent>
-    <CardActions>
-      <Button size="small">Learn More</Button>
-    </CardActions>
+    
   </Card>
   </Link>
 
