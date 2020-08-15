@@ -74,10 +74,12 @@ function Page3() {
               <Grid container direction="row" justify="flex-start" alignItems="flex-start" sm={6}>
                  <Typography>
                      <h1 style={{marginTop:"100px"}}>Connect with Professionals</h1>
+                     <h4>Preparing for a job goes beyond learning materials. We help you with practice pathways to prioritize the skills
+                         to learn and perform best at the interview.</h4>
                  </Typography>
 
               </Grid>
-              <Grid item sm={5}>
+              <Grid item sm={5} style={{marginLeft:"10px"}}>
                   <Component2 />
                   
 
