@@ -37,7 +37,7 @@ const Component5 =() =>{
   return(
 
    <Link href="#">
-    <Card className={classes.root}>
+    <Card raised="true" className={classes.root}>
     <CardContent>
       <CardMedia className={classes.media} style={{height: "50px"}} image={img} />
         
