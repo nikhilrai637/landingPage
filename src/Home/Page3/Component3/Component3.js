@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { CardMedia } from '@material-ui/core';
 import Link from '@material-ui/core/Link';
-import img   from './dummy.jpg'
+import img   from './C3.jpeg'
 
 
 const useStyles = makeStyles({
