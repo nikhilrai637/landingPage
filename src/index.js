@@ -5,12 +5,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from "./theme";
-
+import {BrowserRouter as Router} from 'react-router-dom'
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-    <App />
 
+    <ThemeProvider theme={theme}>
+    <Router> 
+    <App />
+    </Router>  
     </ThemeProvider>
 
     

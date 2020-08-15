@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import {Grid} from "@material-ui/core";
+import {Link} from "react-router-dom"
 
 const useStyles = makeStyles((theme) => ({
 
@@ -32,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
                   
               <Grid container justify="center">
                   <Grid item xs={3} style={{textAlign:"center"}}>
-                     <Button variant="contained" color="secondary" className={classes.textcolor}>GET STARTED.</Button>
+                     <Link to = "/Get_Start"><Button variant="contained" color="secondary" className={classes.textcolor}>GET STARTED.</Button></Link>
                   </Grid>
               </Grid>
                 <Grid item xs={2} />
