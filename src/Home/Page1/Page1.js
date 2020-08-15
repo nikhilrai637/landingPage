@@ -5,7 +5,6 @@ import Content from  './Content/Content'
 function Page1() {
     return (
         <div>
-           
           <Content/>    
             <GettingStarted />
         </div>
