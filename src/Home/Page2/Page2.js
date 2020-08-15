@@ -8,13 +8,29 @@ import Component1 from './Component1/Component1'
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import {Grid} from "@material-ui/core";
+import { makeStyles } from '@material-ui/core/styles';
+import { Divider } from '@material-ui/core';
+
+const useStyles = makeStyles(() => ({
+
+
+  heading:{
+
+     marginBottom:"100px",
+
+  },
+ 
+  }));
 
 function Page2() {
+
+  const classes = useStyles();
     return (
-        <div>
+        <div className={classes.heading}>
             <Grid container justify="center">
                   <Grid item xs={12} sm={8} style={{textAlign:"center"}}>
                       <Typography>
+                        <Divider />
                        <h1 style={{paddingBottom:"60px"}}>Choose your domain and start preparing</h1>
                       </Typography>
                   </Grid>
