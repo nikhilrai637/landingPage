@@ -4,13 +4,6 @@ import Component2 from './Component2/Component2'
 import Component3 from './Component3/Component3'
 import {Grid} from "@material-ui/core";
 import Typography from '@material-ui/core/Typography';
-<<<<<<< HEAD
-
-
-
-
-=======
->>>>>>> 63aeaadd066877a765af95da2757226ea63b5e34
 
 function Page3() {
     return (
@@ -87,18 +80,6 @@ function Page3() {
       <Grid item sm={2} xs={2} />
       </Grid>
 
-
-
-
-
-
-          
-           
-<<<<<<< HEAD
-        
-=======
->>>>>>> 63aeaadd066877a765af95da2757226ea63b5e34
-            
         </div>
     )
 }
