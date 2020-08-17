@@ -3,12 +3,14 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import { CardMedia } from '@material-ui/core';
 import Link from '@material-ui/core/Link';
-import img   from './C6.jpeg'
+import img   from './C2.jpeg'
+
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 185,
+    minWidth: 225,
     borderRadius:"10%",
+    marginBottom: "100px",
   },
   bullet: {
     display: 'inline-block',
@@ -22,26 +24,26 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
   media: {
-    height: 0,
+    height: '20%',
     paddingTop: '56.25%', // 16:9
   },
 });
 
-const Component6 =() =>{
+const Component2 =() =>{
 
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
   return(
 
    <Link href="#">
-    <Card raised="true" className={classes.root}>
-   
-      <CardMedia className={classes.media} style={{height: "50px"}} image= {img} />
+    <Card className={classes.root} raised="true">
     
-    
+      <CardMedia className={classes.media} style={{height: "180px"}} image= {img} />
+        
   </Card>
   </Link>
 
   );
 };
-export default Component6;
+
+export default Component2;

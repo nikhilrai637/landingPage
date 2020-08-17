@@ -1,27 +1,19 @@
 import React from 'react'
-import Component2 from './Component2/Component2'
-import Component4 from './Component4/Component4'
-import Component6 from './Component6/Component6'
-import Component5 from './Component5/Component5'
-import Component3 from './Component3/Component3'
-import Component1 from './Component1/Component1'
+import {Data} from './data'
+ 
 import Typography from '@material-ui/core/Typography';
 import {Grid} from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
 import { Divider } from '@material-ui/core';
+import CARD from './CARD'
 
 const useStyles = makeStyles(() => ({
-
-
   heading:{
-
      marginBottom:"100px",
-
   },
- 
   }));
 
-function Page2() {
+function Domains() {
 
   const classes = useStyles();
     return (
@@ -38,26 +30,17 @@ function Page2() {
      <Grid container>
       <Grid item sm={2} xs={2} />
       <Grid item  container xs={10} sm={8} spacing={10}>
-       
-          <Grid item xs={12} sm={4} md={4} >
-            <Component1 />
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Component2 />
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Component3 />
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Component4 />
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Component5 />
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Component6 />
-          </Grid>
-        
+          
+          {Data.map( (data,key) => {
+            console.log(data.domain)
+            return (
+              <Grid item xs={12} sm={4} md={4} >
+              <CARD domain = {data.domain}/>
+            </Grid>
+            );
+          } )}
+         
+          
       </Grid>
       <Grid item sm={2} xs={2} />
       </Grid>
@@ -69,4 +52,4 @@ function Page2() {
     )
 }
 
-export default Page2
+export default Domains

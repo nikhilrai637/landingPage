@@ -1,24 +1,11 @@
 import React from "react";
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
 
-import {makeStyles} from "@material-ui/styles";
+ 
 import MenuItem from '@material-ui/core/MenuItem';
 import Link from '@material-ui/core/Link';
 import { Divider } from '@material-ui/core';
-
-
-const useStyles = makeStyles(theme =>({
-    typographyStyles:{  
-       marginLeft: "auto",
-    },
-    font:{
-    
-        fontWeight: "700",
-
-    },
-
-
-}));
+import {useStyles} from './Styles'
 
 const Navbar =() =>{
     const classes= useStyles();

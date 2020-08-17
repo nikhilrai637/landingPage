@@ -6,6 +6,7 @@ import {Grid} from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import { Divider } from '@material-ui/core';
+import   Data        from './data' 
 
 const useStyles = makeStyles(() => ({
 
@@ -24,7 +25,7 @@ const useStyles = makeStyles(() => ({
     },
    
     }));
-function Page3() {
+function Advantages() {
 
     const classes = useStyles();
     return (
@@ -119,4 +120,4 @@ function Page3() {
     )
 }
 
-export default Page3;
+export default Advantages;

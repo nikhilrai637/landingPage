@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-
 import { CardMedia } from '@material-ui/core';
 import Link from '@material-ui/core/Link';
 import img   from './C1.jpeg'
@@ -9,8 +8,9 @@ import img   from './C1.jpeg'
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 185,
-    borderRadius:"10%",
+    minWidth: 225,
+    borderRadius: "10%",
+    marginBottom: "100px",
   },
   bullet: {
     display: 'inline-block',
@@ -25,25 +25,26 @@ const useStyles = makeStyles({
   },
   media: {
     height: 0,
-    paddingTop: '58.25%', // 16:9
+    paddingTop: '56.25%', // 16:9
   },
 });
 
 const Component1 =() =>{
 
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
+  
   return(
 
    <Link href="#">
-    <Card raised="true" className={classes.root}>
+    <Card className={classes.root} raised="true">
+
+      <CardMedia className={classes.media} style={{height: "180px"}} image= {img} />
     
-      <CardMedia className={classes.media} style={{height: "60px"}}  image =  {img} />
-      
-   
+    
   </Card>
   </Link>
 
   );
 };
+
 export default Component1;

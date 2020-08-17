@@ -2,7 +2,7 @@ import React from 'react'
 import GettingStarted from './Getting Started/GettingStarted'
 import Content from  './Content/Content'
 
-function Page1() {
+function Hero() {
     return (
         <div>
           <Content/>    
@@ -11,4 +11,4 @@ function Page1() {
     )
 }
 
-export default Page1
+export default Hero
