@@ -99,7 +99,11 @@ function Page3() {
               </Grid>
               <Grid container direction="row" justify="flex-start" alignItems="flex-start" sm={6}>
                  <Typography>
+
                      <h1 className={classes.space}>Crack Interviews</h1>
+                     <h4 className={classes.stylep}>Preparing for a job goes beyond learning materials. We help you with practice pathways to prioritize the skills
+                         to learn and perform best at the interview.
+                     </h4>
                  </Typography>
 
               </Grid>

@@ -28,11 +28,16 @@ const Navbar =() =>{
                 <Typography color="primary" variant="h4" className={classes.font} >
                    cache
                 </Typography>
-                <MenuItem className={classes.typographyStyles}><Link href="#" color="inherit">Contact Us</Link>
+                <MenuItem className={classes.typographyStyles}><Link href="#" color="inherit">
+                    <strong>Contact Us</strong>
+                    </Link>
                 </MenuItem>
-                <Divider  />
-               
-                <MenuItem ><Link href="#" color="inherit">Sign Up</Link>
+
+                <Divider orientation="vertical" />
+                
+                 <MenuItem ><Link href="#" color="inherit">
+                     <strong>Sign Up</strong>
+                 </Link>
                 </MenuItem>
                
              </Toolbar>
