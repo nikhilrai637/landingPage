@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     styles:{
         fontSize: "23px",
         fontWeight: "500",
-        fontFamily: "Quicksand",
+       
 
     },
 

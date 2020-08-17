@@ -12,8 +12,10 @@ const theme = createMuiTheme({
   },
   typography: {
 
+    fontFamily:'Quicksand',
+
      
 
-  }
+  },
 });
  export default theme
