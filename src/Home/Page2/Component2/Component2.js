@@ -26,7 +26,7 @@ const useStyles = makeStyles({
   },
   media: {
     height: 0,
-    paddingTop: '56.25%', // 16:9
+    paddingTop: '58.25%', // 16:9
   },
 });
 
@@ -38,11 +38,8 @@ const Component2 =() =>{
 
    <Link href="#">
     <Card raised="true" className={classes.root}>
-    <CardContent>
-      <CardMedia className={classes.media} style={{height: "50px"}} image={img} />
-        
-      
-    </CardContent>
+    
+      <CardMedia className={classes.media} style={{height: "60px"}} image={img} />
    
   </Card>
   </Link>

@@ -37,30 +37,30 @@ function Page2() {
               </Grid>
 
      <Grid container>
-      <Grid item sm={2} />
-      <Grid item  container xs={12} sm={8} spacing={8}>
+      <Grid item sm={2} xs={2} />
+      <Grid item  container xs={10} sm={8} spacing={10}>
        
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={4} md={4} >
             <Component1 />
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={4} md={4}>
             <Component2 />
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={4} md={4}>
             <Component3 />
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={4} md={4}>
             <Component4 />
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={4} md={4}>
             <Component5 />
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={4} md={4}>
             <Component6 />
           </Grid>
         
       </Grid>
-      <Grid item sm={2} />
+      <Grid item sm={2} xs={2} />
       </Grid>
         
 

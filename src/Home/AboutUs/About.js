@@ -17,7 +17,7 @@ function About() {
                    <Paper elevation={3} variant="elevation" square>
                        
                    <Grid container justify="center">
-                  <Grid item xs={3} style={{textAlign:"center"}}>
+                  <Grid item xs={3}  sm={8} style={{textAlign:"center"}}>
                       <Typography>
                           <h1>About Us</h1>
                           <p> We are a group of IIT and IIM Alumni</p>

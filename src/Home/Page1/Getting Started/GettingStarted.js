@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
         fontWeight:"700",
         fontSize: "20px",
         color: "white",
-        marginTop: "40px",
+        marginTop: "6rem",
         marginBottom: "400px",
 
     },
@@ -35,11 +35,10 @@ const useStyles = makeStyles((theme) => ({
                <Grid item xs={8}>
                   
               <Grid container justify="center">
-                  <Grid item xs={3} style={{textAlign:"center"}}>
-                     <Link to = "/Get_Start">
-                         <Button variant="contained" color="secondary" className={classes.textcolor}>
-                         GET STARTED
-                         </Button></Link>
+                  <Grid item xs={12} style={{textAlign:"center"}}>
+                      <Button variant="contained" color="secondary" className={classes.textcolor} href="/Get_Start">
+                           GET STARTED
+                         </Button>
                   </Grid>
               </Grid>
                 <Grid item xs={2} />

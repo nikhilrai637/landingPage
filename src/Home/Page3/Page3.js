@@ -70,16 +70,15 @@ function Page3() {
       <Grid item sm={2} xs={2}/>
       <Grid item container xs={8} sm={8} spacing={6}>
           <Grid container>
-              
-              <Grid container direction="row" justify="flex-start" alignItems="flex-start" sm={6}>
+              <Grid container direction="row" justify="flex-start" alignItems="flex-start" sm={6} >
                  <Typography>
-                     <h1 style={{marginTop:"100px"}}>Connect with Professionals</h1>
+                     <h1 style={{marginTop:"200px"}}>Connect with Professionals</h1>
                      <h4>Preparing for a job goes beyond learning materials. We help you with practice pathways to prioritize the skills
                          to learn and perform best at the interview.</h4>
                  </Typography>
 
               </Grid>
-              <Grid item sm={5} style={{marginLeft:"10px"}}>
+              <Grid item sm={5} style={{marginLeft:"30px"}} justify="flex-end">
                   <Component2 />
                   
 
@@ -98,7 +97,7 @@ function Page3() {
                   <Component3 />
                   
               </Grid>
-              <Grid container direction="row" justify="flex-end" alignItems="flex-start" sm={6}>
+              <Grid container direction="row" justify="flex-start" alignItems="flex-start" sm={6}>
                  <Typography>
                      <h1 className={classes.space}>Crack Interviews</h1>
                  </Typography>

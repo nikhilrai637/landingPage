@@ -1,10 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
+
 import { CardMedia } from '@material-ui/core';
 import Link from '@material-ui/core/Link';
 import img   from './C1.jpeg'
@@ -27,7 +24,7 @@ const useStyles = makeStyles({
   },
   media: {
     height: 0,
-    paddingTop: '56.25%', // 16:9
+    paddingTop: '58.25%', // 16:9
   },
 });
 
@@ -39,11 +36,9 @@ const Component1 =() =>{
 
    <Link href="#">
     <Card raised="true" className={classes.root}>
-    <CardContent>
-      <CardMedia className={classes.media} style={{height: "50px"}}  image =  {img} />
-        
+    
+      <CardMedia className={classes.media} style={{height: "60px"}}  image =  {img} />
       
-    </CardContent>
    
   </Card>
   </Link>
