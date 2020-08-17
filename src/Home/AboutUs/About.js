@@ -4,8 +4,17 @@ import LowerComponent from './LowerComponent/LowerComponent'
 import { Grid, Typography } from '@material-ui/core'
 import { Paper } from '@material-ui/core';
 import { Divider } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
+const useStyles = makeStyles((theme) => ({
+
+   styles:{
+       marginBottom:"10rem",
+   },
+   
+    }));
 function About() {
+    const classes =useStyles();
     return (
         <div>
             
@@ -17,10 +26,14 @@ function About() {
                    <Paper elevation={3} variant="elevation" square>
                        
                    <Grid container justify="center">
-                  <Grid item xs={3}  sm={8} style={{textAlign:"center"}}>
+                  <Grid item xs={12}  sm={8} style={{textAlign:"center"}}>
                       <Typography>
-                          <h1>About Us</h1>
-                          <p> We are a group of IIT and IIM Alumni</p>
+                          <h1 className={classes.styles}>About Us</h1>
+                          <p className={classes.styles}>We are a group of IIT IIM alumni with +15 years of 
+                              combined  work experience across global software comapnies,
+                              investment bank and next-gen(unicorn) startups across EdTech,FoodTech
+                              and FinTech.
+                          </p>
                       </Typography>
                   </Grid>
               </Grid>
@@ -32,7 +45,7 @@ function About() {
             
 
             <CentralParagraph/>
-            <LowerComponent/>
+            
         </div>
     )
 }

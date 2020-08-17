@@ -6,7 +6,6 @@ import Component5 from './Component5/Component5'
 import Component3 from './Component3/Component3'
 import Component1 from './Component1/Component1'
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
 import {Grid} from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
 import { Divider } from '@material-ui/core';
