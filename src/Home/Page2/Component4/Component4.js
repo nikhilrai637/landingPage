@@ -9,6 +9,7 @@ import img   from './C4.jpeg'
 const useStyles = makeStyles({
   root: {
     minWidth: 185,
+    borderRadius:"10%",
   },
   bullet: {
     display: 'inline-block',

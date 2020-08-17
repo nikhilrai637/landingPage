@@ -23,7 +23,7 @@ function About() {
             <Grid item xs={2} />
                <Grid item xs={8}>
                    <Divider style={{marginBottom:"20px"}} />
-                   <Paper elevation={3} variant="elevation" square>
+                   <Paper elevation={3} variant="elevation"  className={classes.styles}>
                        
                    <Grid container justify="center">
                   <Grid item xs={12}  sm={8} style={{textAlign:"center"}}>
@@ -39,12 +39,11 @@ function About() {
               </Grid>
                    </Paper>
                   
-                  </Grid>
+             </Grid>
                 <Grid item xs={2} />
               </Grid>
-            
-
-            <CentralParagraph/>
+              <Divider />
+             
             
         </div>
     )

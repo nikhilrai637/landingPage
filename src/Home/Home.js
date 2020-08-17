@@ -5,6 +5,7 @@ import Page2 from './Page2/Page2'
 import Page3 from './Page3/Page3'
 import About from './AboutUs/About'
 import Footer from './Footer/Footer'
+
 function Home() {
     return (
         <div>
@@ -13,6 +14,7 @@ function Home() {
             <Page2/>
             <Page3/>
             <About/>
+
             <Footer/>
         </div>
     )

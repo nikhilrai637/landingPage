@@ -13,7 +13,7 @@ import img   from './C2.jpeg'
 const useStyles = makeStyles({
   root: {
     minWidth: 225,
-    radius: "70%",
+    borderRadius:"10%",
     marginBottom: "100px",
   },
   bullet: {

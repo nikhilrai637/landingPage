@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import {Grid} from "@material-ui/core";
 import Link from '@material-ui/core/Link';
+import { Divider } from '@material-ui/core';
 
 
 
@@ -12,11 +13,13 @@ import Link from '@material-ui/core/Link';
     
   
     return (
+
+      
         
-<Grid container>
-  <Grid item xs={2} sm={2} />
+   <Grid container>
+    <Grid item xs={2} sm={2} />
   
-  <Grid item xs={4} sm={3} justify="center" alignItems="center" >
+     <Grid item xs={4} sm={3} justify="center" alignItems="center" >
   
    <Link color="inherit"><h2>About</h2></Link>
    <Link color="inherit"><h2>Team</h2></Link>
