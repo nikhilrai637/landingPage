@@ -6,17 +6,11 @@ import {Grid} from "@material-ui/core";
 import Link from '@material-ui/core/Link';
 
 
-
-
-
-
-
   const Content =() =>{
     
   
     return (
-
-      
+ 
         
    <Grid container>
     <Grid item xs={2} sm={2} />

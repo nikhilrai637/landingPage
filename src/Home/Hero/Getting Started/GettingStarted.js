@@ -10,13 +10,10 @@ import {useStyles} from './Styles'
     const classes = useStyles();
   
     return (
-             <Grid item container>
-
-
-            <Grid item xs={2} />
+         <Grid  container>
+             <Grid item xs={2} />
                <Grid item xs={8}>
-                  
-              <Grid container justify="center">
+                 <Grid container justify="center">
                   <Grid item xs={12} style={{textAlign:"center"}}>
                       <Button variant="contained" color="secondary" className={classes.textcolor} href="/Get_Start">
                            GET STARTED
@@ -27,7 +24,7 @@ import {useStyles} from './Styles'
 
             </Grid>
 
-            <Grid container item sm={12} className={classes.image}>
+            <Grid  item xs={12} md={12} sm={12} className={classes.image}>
 
             </Grid>
             </Grid>
