@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-
+import img from './Art_Work.png'
 export const useStyles = makeStyles((theme) => ({
 
     headstyles:{
@@ -16,7 +16,7 @@ export const useStyles = makeStyles((theme) => ({
 
     },
     image: {
-        backgroundImage: 'url(https://source.unsplash.com/random)',
+        backgroundImage: `url(${img})`,
         backgroundRepeat: 'no-repeat',
          height:"40vh",
         backgroundSize: 'cover',
