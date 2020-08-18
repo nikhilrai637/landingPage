@@ -19,18 +19,7 @@ function Domains() {
     return (
 
       
-        <div>
-
-          <Grid container>
-          <Grid item xs={12} sm={12} className={classes.image} >
-
-          </Grid>
-
-            </Grid>
-
-          
-
-
+        <div className={classes.heading}>
             <Grid container justify="center">
                   <Grid item xs={12} sm={8} style={{textAlign:"center"}}>
                       <Typography>

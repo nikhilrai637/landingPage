@@ -15,15 +15,16 @@ export const useStyles = makeStyles((theme) => ({
         marginBottom: "100px",
 
     },
-
     image: {
-        backgroundImage: 'url("src\Home\Domains\IMAGES\DS_ALGO.jpeg")',
+        backgroundImage: 'url(https://source.unsplash.com/random)',
         backgroundRepeat: 'no-repeat',
-      
+         height:"40vh",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       },
-
     
-   
+
+ 
+
+     
     }));

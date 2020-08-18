@@ -11,6 +11,8 @@ import {useStyles} from './Styles'
   
     return (
              <Grid item container>
+
+
             <Grid item xs={2} />
                <Grid item xs={8}>
                   
@@ -24,10 +26,11 @@ import {useStyles} from './Styles'
                 <Grid item xs={2} />
 
             </Grid>
-           
-           
+
+            <Grid container item sm={12} className={classes.image}>
+
             </Grid>
-           
+            </Grid>
 
        
 
