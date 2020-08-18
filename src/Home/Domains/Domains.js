@@ -18,14 +18,13 @@ function Domains() {
   const classes = useStyles();
     return (
 
-
-      
-       
       
         <div>
 
           <Grid container>
-          <Grid item xs={12} sm={12} ></Grid>
+          <Grid item xs={12} sm={12} className={classes.image} >
+
+          </Grid>
 
             </Grid>
 
