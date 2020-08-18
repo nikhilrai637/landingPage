@@ -17,7 +17,21 @@ function Domains() {
 
   const classes = useStyles();
     return (
-        <div className={classes.heading}>
+
+
+      
+       
+      
+        <div>
+
+          <Grid container>
+          <Grid item xs={12} sm={12} ></Grid>
+
+            </Grid>
+
+          
+
+
             <Grid container justify="center">
                   <Grid item xs={12} sm={8} style={{textAlign:"center"}}>
                       <Typography>
@@ -44,9 +58,7 @@ function Domains() {
       </Grid>
       <Grid item sm={2} xs={2} />
       </Grid>
-        
-
-            
+       
            
         </div>
     )
