@@ -49,8 +49,8 @@ const handleNext = ()  => {
                
                          
     {currentQuestionData?<div>
-        <h1>{currentQuestionData.Qtitle}</h1>
-        <h2>{currentQuestionData.Qdescription}</h2>
+        <h1>{currentQuestionData.id}</h1>
+        <h2>{currentQuestionData.name}</h2>
         </div>:null}
               
  
