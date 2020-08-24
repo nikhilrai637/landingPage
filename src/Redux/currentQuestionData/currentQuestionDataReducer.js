@@ -15,7 +15,7 @@ const initialState =
 const currentQuestionDataReducer = (state = initialState , action) => {
     console.log(action.payload,"Reducer 16")
     switch (action.type) {
-        case UPDATE_QUESTION : return {
+        case 'UPDATE_QUESTION_ASYNC' : return {
            
             currentQuestionData : action.payload
         }
