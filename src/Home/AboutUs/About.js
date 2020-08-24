@@ -24,7 +24,7 @@ function About() {
 
         <Grid item container>
             <Grid item xs={2} />
-               <Grid item xs={8}>
+               <Grid item xs={8} sm={8} >
                    <Divider style={{marginBottom:"20px"}} />
                    <Paper elevation={3} variant="elevation"  className={classes.styles}>
                        

@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 import img from './art.png';
-import zIndex from '@material-ui/core/styles/zIndex';
+
 export const useStyles = makeStyles((theme) => ({
 
     headstyles:{
@@ -13,16 +13,17 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: "20px",
         color: "white",
         marginTop: "2rem",
+        marginBottom:"3rem",
       
 
     },
     image: {
         backgroundImage: `url(${img})`,
         backgroundRepeat: 'no-repeat',
-         height:"40vh",
+         height:"25vh",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        zIndex:"2",
+        
       },
     
 

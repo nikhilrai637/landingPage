@@ -1,6 +1,7 @@
 
 
 import React from 'react';
+import Typography from '@material-ui/core/Typography';
  
 import {Grid} from "@material-ui/core";
 import Link from '@material-ui/core/Link';
@@ -12,40 +13,40 @@ import Link from '@material-ui/core/Link';
     return (
  
         
-   <Grid container>
-    <Grid item xs={2} sm={2} />
-  
-     <Grid item xs={4} sm={3} justify="center" alignItems="center" >
-  
-   <Link color="inherit"><h2>About</h2></Link>
-   <Link color="inherit"><h2>Team</h2></Link>
-   <Link color="inherit"><h2>Resources</h2></Link>
-  
-
-  </Grid>
-  <Grid item  justify="center" alignItems="center" xs={2} sm={3}>
-  
-    <Link color="inherit"><h2>Blog</h2></Link>
-    <Link color="inherit"><h2>Career</h2></Link>
-    <Link color="inherit"><h2>Contact</h2></Link>
-
-  </Grid>
-  
-  <Grid item  xs={8} sm={2} justify="flex-end" alignItems="flex-end">
-
-  <Link color="inherit"><h2>Accessibilty</h2></Link>
-    <Link color="inherit"><h2>Terms of Use</h2></Link>
-    <Link color="inherit"><h2>Privacy</h2></Link>
+      <Grid container>
+      <Grid item xs={2} md={2} sm={2} />
     
+       <Grid item xs={4} md={3} sm={4} justify="center" alignItems="center" >
+    
+     <Typography><h2><Link color="inherit">About</Link></h2></Typography>
+     <Typography><h2><Link color="inherit">Contact</Link></h2></Typography>
+     <Typography><h2><Link color="inherit">Team</Link></h2></Typography>
+     
+    
+  
+    </Grid>
+    <Grid item  justify="center" alignItems="center" xs={6} md={3} sm={2}>
+    
+   
+
+    <Typography><h2><Link color="inherit">Accessibility</Link></h2></Typography>
+    <Typography><h2><Link color="inherit">Terms of Use</Link></h2></Typography>
+    <Typography><h2><Link color="inherit">Privacy</Link></h2></Typography>
+  
+    </Grid>
+    <Grid item xs={2} md={1} sm={1} />
+    
+    <Grid item  xs={6} md={2} sm={2} justify="flex-end" alignItems="flex-end">
+  
+    <Typography><h2><Link color="inherit">Blog</Link></h2></Typography>
+    <Typography><h2><Link color="inherit">Career</Link></h2></Typography>
+    <Typography><h2><Link color="inherit">Resources</Link></h2></Typography>
+
+    
+      
+    </Grid>
+  
   </Grid>
-  <Grid item sm={3} />
-
- 
-
-
-
-</Grid>
-
        
 
         );

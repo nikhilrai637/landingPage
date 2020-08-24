@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
   
               </Grid>
               <Grid container justify="center">
-                  <Grid item xs={12} sm={4} style={{textAlign:"center"}}>
+                  <Grid item xs={8} sm={4} style={{textAlign:"center"}}>
                       <Typography>
                          <h4 className={classes.styles}> Cracking an interview is tough.
                          We at Cache Prep help you crack it with clarity,convenience and confidence.</h4>

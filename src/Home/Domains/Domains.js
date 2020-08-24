@@ -36,9 +36,9 @@ function Domains() {
           {Data.map( (data,key) => {
             console.log(data.domain)
             return (
-              <Grid item xs={12} sm={4} md={4} >
+              <Grid item xs={12} sm={6} md={4} >
               <CARD domain = {data.domain}/>
-            </Grid>
+            </Grid> 
             );
           } )}
          
