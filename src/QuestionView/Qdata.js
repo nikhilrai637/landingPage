@@ -1,6 +1,6 @@
 export const Qdata = [
     { 
-       qid : 'A',
+       qid : '1',
        Qtitle : "Max Subsequent Sum",
        Qdescription : ` There are n programmers that you want to split into several non-empty teams. The skill of the i-th programmer is ai. You want to assemble the maximum number of teams from them. There is a restriction for each team: the number of programmers in the team multiplied by the minimum skill among all programmers in the team must be at least x.
 
@@ -9,7 +9,7 @@ export const Qdata = [
        Calculate the maximum number of teams that you can assemble.`
     },
     {
-        qid : 'B',
+        qid : '2',
         Qtitle : "Coin Change" ,
         Qdescription : `Anna is a girl so brave that she is loved by everyone in the city and citizens love her cookies. She is planning to hold a party with cookies. Now she has a vanilla cookies and b chocolate cookies for the party.
 
@@ -21,7 +21,7 @@ export const Qdata = [
         if the guest of the second type: if v>c the guest selects a chocolate cookie. Otherwise, the guest selects a vanilla cookie.`
     },
     {
-        qid : 'C',
+        qid : '3',
         Qtitle : "Create The Teams"  ,
         Qdescription : `There are two rival donut shops.
 
@@ -38,7 +38,7 @@ export const Qdata = [
         The printed values should be less or equal to 109. It can be shown that under the given constraints such values always exist if any values exist at all.`
     },
     {
-        qid : 'D',
+        qid : '4',
         Qtitle : "Universal Solution"  ,
         Qdescription : `Lee is going to fashionably decorate his house for a party, using some regular convex polygons...
 
@@ -49,7 +49,7 @@ export const Qdata = [
         Now he is shopping: the market has t regular polygons. For each of them print YES if it is beautiful and NO otherwise.`
     },
     {
-        qid : 'E',
+        qid : '5',
         Qtitle : " Three Indices" ,
         Qdescription : `Lee tried so hard to make a good div.2 D problem to balance his recent contest, but it still doesn't feel good at all. Lee invented it so tediously slow that he managed to develop a phobia about div.2 D problem setting instead. And now he is hiding behind the bushes...
 

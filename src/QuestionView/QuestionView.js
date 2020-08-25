@@ -33,7 +33,7 @@ function QuestionView(props) {
     return (
         <div>
              {QuestionData.map( (q,key) => {
-                  return (<QuestionCell qid = {q.id}  Qtitle = {q.name} history = {props.history} />) 
+                  return (<QuestionCell qid = {q.qid}  Qtitle = {q.Qtitle} history = {props.history} />) 
              } )}        
         </div>
     )

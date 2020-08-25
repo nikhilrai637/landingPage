@@ -17,7 +17,7 @@ function QuestionPageParam(props) {
         for(let i = 0 ; i < Qdata.length; i++) {
              if(Qdata[i].qid === props.match.params.key) k = i;  
         }
-      dispatch(updateQuestion(Qdata[k]))
+      dispatch(updateQuestion(k))
        
 },[props.match.params.key])
 const handleBack = ()  => {
@@ -39,18 +39,16 @@ const handleNext = ()  => {
     let obj = Qdata[k]
       
     dispatch(updatePointer(p))
-    dispatch(updateQuestion(obj))
+    dispatch(updateQuestion(p))
           
 }
 
    
     return (
-        <div>
-               
-                         
-    {currentQuestionData?<div>
-        <h1>{currentQuestionData.id}</h1>
-        <h2>{currentQuestionData.name}</h2>
+        <div>                     
+        {currentQuestionData?<div>
+        <h1>{currentQuestionData.title}</h1>
+        <h2>{currentQuestionData.description}</h2>
         </div>:null}
               
  

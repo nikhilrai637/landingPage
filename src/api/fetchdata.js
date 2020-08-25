@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
-export function fetchdata(){
-    let ret = "data not found"
-  return fetch('http://jsonplaceholder.typicode.com/users/10')
+export function fetchdata(id){
+    
+  return fetch(`https://my-json-server.typicode.com/nikhilrai637/Cache/posts/${id}`)
   .then(res =>  {
        return res.json()
   })
